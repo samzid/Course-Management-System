@@ -20,17 +20,17 @@ class PaymentController extends Controller
 
 
 
-    // public function Addpayment()
-    // {
+    public function Addpayment()
+    {
 
-    //     $certificate_item = Certificate_Item::all();
-    //     $formData = RegistrationForm::where('id_number', Auth::user()->student_id)->first();
+        $certificate_item = Certificate_Item::all();
+        $formData = RegistrationForm::where('id_number', Auth::user()->student_id)->first();
 
-    //     // return view('frontend.registration.add_payment', compact('formData', 'certificate_item'));
+        // return view('frontend.registration.add_payment', compact('formData', 'certificate_item'));
 
-    //     return view('frontend.registration.add_payment', compact('formData', 'certificate_item'))->with('success', 'Item created successfully!');
+        return view('frontend.registration.add_payment', compact('formData', 'certificate_item'))->with('success', 'Item created successfully!');
 
-    // }
+    }
 
 
 

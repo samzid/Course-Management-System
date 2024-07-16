@@ -38,7 +38,7 @@ https://templatemo.com/tm-557-grad-school
 
 
 <!-- Page Title -->
-<title>LearnPress | Education & Courses HTML Template</title>
+<title>University course management system</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="{{ asset('frontend') }}/assets/images/favicon.png" rel="shortcut icon" type="image/png">
@@ -113,13 +113,6 @@ https://templatemo.com/tm-557-grad-school
 
 
 <!--------------------------------- end new cdn link ------------------------------>
-
-
-
-
-
-
-
 
 </head>
 

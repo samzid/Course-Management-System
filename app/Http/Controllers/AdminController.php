@@ -197,7 +197,7 @@ public function allAdmin()
         //     if (Hash::check($password, $account->password)) {
         //         Auth::guard('account')->login($account);
 
-        //         return redirect('/admin/dashboard');
+        //         return redirect('/');
 
         //     } else {
         //         return redirect()->back();
@@ -329,7 +329,7 @@ public function allAdmin()
 
 
 
-/////////////////Ragistration Time Handelling///////////////////////////////////////
+/////////////////Registration Time Handelling///////////////////////////////////////
 
 
 

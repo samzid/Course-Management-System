@@ -282,7 +282,7 @@
                                         <ul style="margin-top: 20px;" class="pull-left flip hidden-sm hidden-xs">
                                             <li>
                                                 <!-- Modal: Book Now Starts -->
-                                                <a class="btn btn-dark  font-12 bs-modal-ajax-load mt-0 p-10 pr-10" href="{{ route('all.completed_course') }}">View Complete Course</a>
+                                                <a class="btn btn-primary  font-12 bs-modal-ajax-load mt-0 p-10 pr-10" href="{{ route('all.completed_course') }}">View Complete Course</a>
                                                 <!-- Modal: Book Now End -->
                                             </li>
                                         </ul>
@@ -311,9 +311,6 @@
                                 </div>
                             </div>
 
-
-
-
                             <div class="col-lg-2 col-sm-12 col-md-2 pr-0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay1">
                                 <div class="sm-height-auto" data-bg-img="{{ asset('frontend') }}/assets/images/about/h2.jpg">
                                     <div class="p-5">
@@ -328,11 +325,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
-
-
-
                         </div>
                     </div>
                 </div>
@@ -345,7 +337,7 @@
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
                                 <h2 class="mt-0 line-height-1 text-center text-uppercase mb-10 text-black-333">Our <span class="text-theme-color-2"> Courses</span></h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
+                                <p> Coursera offers a wide range of courses, degrees, and certificates from top universities and companies. You can explore programs in data science, computer science, business, and more. Some popular<br> voluptatem obcaecati!</p>
                             </div>
                         </div>
                     </div>

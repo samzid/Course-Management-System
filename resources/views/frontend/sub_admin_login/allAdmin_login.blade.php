@@ -9,7 +9,7 @@
 
         /* http://127.0.0.1:8000/frontend/assets/images/choosing-bg.jpg */
 
-     
+
         html,
         body {
             background-image: url('/frontend/assets/images/choosing-bg.jpg');
@@ -83,7 +83,7 @@
             width: 150px;
             height: 30px;
             font-weight: bold;
-           
+
         }
 
         .login_btn:hover {
@@ -108,10 +108,9 @@
         <div class="d-flex justify-content-center h-60">
             <div class="card">
                 <div class="card-header">
-                    <h3>Sign In admn</h3>
-
+                    <h3 style="text-align:center; margin-top: 5px;padding: 5px; background-color: #8080 ; font-family:sans-serif; font-size: 14px;" >Sign In admin</h3>
                 </div>
-                <div class="card-body" style="margin-top: -30px">
+                <div class="card-body" style="margin-top: 10px">
                     <form method="POST" action="{{ route('post.alladmin.login') }}">
                     {{-- <form method="POST" action="{{ isset($guard) ? url($guard . '/login') : route('login') }}"> --}}
                         @csrf
@@ -141,12 +140,12 @@
                         {{-- <div class="row align-items-center remember">
                             <input style="font-size: 14px" type="checkbox">Remember Me
                         </div> --}}
-                        <div class="form-group" style="margin: -10px 106px">
+                        <div class="form-group" style="margin: 10px 100px">
                             <input type="submit" value="Login" class="btn float-right login_btn">
                         </div>
                     </form>
                 </div>
-                <div class="card-footer" style="margin-top: -20px">
+                <div class="card-footer" style="margin-top: -10px">
                     <div class="d-flex justify-content-center links">
                         Don't have an account?<a href="#">Sign Up</a>
                     </div>

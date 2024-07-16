@@ -43,7 +43,7 @@
             <table style="text-align: center" id="datatable1" class="table display responsive nowrap">
                 <thead>
                     <tr>
-                      
+
                         <th>User Name</th>
                         <th>Email</th>
                         <th>Phone</th>
@@ -60,10 +60,10 @@
 
                 <tbody>
 
-             
-                  
+
+
                         <tr>
-                          
+
                             <td>{{ $payments->user_name }}</td>
                             <td>{{ $payments->email }}</td>
                             <td>{{ $payments->phone }}</td>
@@ -73,11 +73,11 @@
                             <td>{{ $payments->expected_time }} days</td>
                             <td>{{ $payments->fee }} Taka</td>
                             <td>{{ $payments->payment_method }}</td>
-                            <td>{{ $payments->account_number }}</td> 
-                            <td>{{ $payments->transaction_id }}</td>                                                        
-       
+                            <td>{{ $payments->account_number }}</td>
+                            <td>{{ $payments->transaction_id }}</td>
+
                         </tr>
-                  
+
                 </tbody>
             </table>
         </div><!-- table-wrapper -->
